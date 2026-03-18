@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado/Lab3_7segmentDecoder/Lab3_7segmentDecoder.srcs/sources_1/new/7Seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sevenSegment
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado/Lab3_7segmentDecoder/Lab3_7segmentDecoder.srcs/sim_1/new/7SegBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_sevenSegment
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivado/Lab3_7segmentDecoder/Lab3_7segmentDecoder.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

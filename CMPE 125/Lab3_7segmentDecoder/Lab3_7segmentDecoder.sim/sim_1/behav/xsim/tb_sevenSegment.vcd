@@ -1,0 +1,182 @@
+$date
+   Tue Sep 23 22:16:23 2025
+$end
+
+$version
+  2023.2
+  $dumpfile ("tb_sevenSegment.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module tb_sevenSegment $end
+$var reg 4 ! sw [3:0] $end
+$var wire 7 " seg [6:0] $end
+$var wire 4 # an [3:0] $end
+$scope module dut $end
+$var wire 4 $ sw [3:0] $end
+$var wire 7 " seg [6:0] $end
+$var wire 4 # an [3:0] $end
+$var wire 1 % D3 $end
+$var wire 1 & D2 $end
+$var wire 1 ' D1 $end
+$var wire 1 ( D0 $end
+$upscope $end
+$scope function seg_on_mask $end
+$var reg 7 ) seg_on_mask [6:0] $end
+$var reg 7 * s [6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+b0 !
+b1000000 "
+b1110 #
+b0 $
+0%
+0&
+0'
+0(
+bx )
+bx *
+$end
+
+#5000
+b111111 )
+b1000000 *
+
+#25000
+b1 !
+b1111001 "
+b1 $
+1(
+
+#45000
+b10 !
+b100100 "
+b10 $
+1'
+0(
+b110 )
+b1111001 *
+
+#65000
+b11 !
+b110000 "
+b11 $
+1(
+b1011011 )
+b100100 *
+
+#85000
+b100 !
+b11001 "
+b100 $
+1&
+0'
+0(
+b1001111 )
+b110000 *
+
+#105000
+b101 !
+b10010 "
+b101 $
+1(
+b1100110 )
+b11001 *
+
+#125000
+b110 !
+b10 "
+b110 $
+1'
+0(
+b1101101 )
+b10010 *
+
+#145000
+b111 !
+b1111000 "
+b111 $
+1(
+b1111101 )
+b10 *
+
+#165000
+b1000 !
+b0 "
+b1000 $
+1%
+0&
+0'
+0(
+b111 )
+b1111000 *
+
+#185000
+b1001 !
+b11000 "
+b1001 $
+1(
+b1111111 )
+b0 *
+
+#205000
+b1010 !
+b1000 "
+b1010 $
+1'
+0(
+b1100111 )
+b11000 *
+
+#225000
+b1011 !
+b11 "
+b1011 $
+1(
+b1110111 )
+b1000 *
+
+#245000
+b1100 !
+b100111 "
+b1100 $
+1&
+0'
+0(
+b1111100 )
+b11 *
+
+#265000
+b1101 !
+b100001 "
+b1101 $
+1(
+b1011000 )
+b100111 *
+
+#285000
+b1110 !
+b110 "
+b1110 $
+1'
+0(
+b1011110 )
+b100001 *
+
+#305000
+b1111 !
+b1110 "
+b1111 $
+1(
+b1111001 )
+b110 *
+
+#325000
+b0 !

@@ -1,0 +1,12 @@
+Time resolution is 1 ps
+ A  B  Cin | Sum Cout 
+----------------------
+ 0  0   0  |  0    0
+ 0  0   1  |  1    0
+ 0  1   0  |  1    0
+ 0  1   1  |  0    1
+ 1  0   0  |  1    0
+ 1  0   1  |  0    1
+ 1  1   0  |  0    1
+ 1  1   1  |  1    1
+$stop called at time : 80 ns : File "F:/Vivado/Lab 2 Full Adder/Lab 2 Full Adder.srcs/sim_1/new/full_adder_tb.v" Line 32
